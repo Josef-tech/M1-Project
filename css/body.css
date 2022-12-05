@@ -1,0 +1,307 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.main-content-title {
+    width: 170.08px;
+    height: 43.34px;
+    margin: 36px;
+
+}
+
+h1 {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+
+
+
+}
+
+.main-content-paragraph {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    margin: 36px;
+    width: 308px;
+
+}
+
+.main-content-sideimage img {
+    width: 146.32px;
+    height: 146.78px;
+    margin-left: 113.12px;
+    margin-right: 115.57px;
+    margin-bottom: 59.22px;
+}
+
+
+
+
+.main-content-info {
+    display: flex;
+    width: 242px;
+    flex-wrap: wrap;
+    margin-bottom: 45px;
+
+
+
+
+}
+
+.info-lessons {
+    margin-left: 35px;
+    margin-top: 34px;
+    margin-top: 0.83px;
+
+
+}
+
+
+
+.info-lessons h3 {
+    height: 18.172916412353516px;
+    width: 69.89583587646484px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+
+
+}
+
+
+.info-lessons p {
+    height: 18px;
+    width: 86px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    margin-top: -9px;
+
+
+}
+
+
+
+
+
+.main-content-info-format {
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
+}
+
+.main-content-info-title h2 {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.main-content-description {
+    width: 180px;
+
+}
+
+.main-content-description1 {
+    width: 165px;
+
+}
+
+.main-content-description2 {
+    width: 159px;
+
+}
+
+.main-content-description h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    color: #1E4681;
+}
+
+
+.main-content-description p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    margin-top: -7px;
+}
+
+.main-content-description1 h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    margin-top: 10px;
+    color: #1E4681;
+}
+
+
+.main-content-description1 p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    margin-top: -7px;
+
+}
+
+
+.main-content-description2 h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    margin-top: 19px;
+    color: #1E4681;
+}
+
+
+.main-content-description2 p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    margin-top: -7px;
+}
+
+
+
+
+.main-content-info-about {
+    display: block;
+    margin-left: 36px;
+    margin-top: 73px
+}
+
+
+.main-content-info-about h2 {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.main-content-info-list ul {
+    width: 299px;
+    height: 174px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 11.47px;
+
+}
+
+
+
+.main-content-about-course h2 {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    margin-left: 34px;
+    margin-top: 85px;
+}
+
+.main-content-about-course-info-blocks {
+    display: flex;
+    flex-direction: column;
+    margin-left: 95px;
+    margin-top: 35.66px;
+}
+
+.main-content-about-course-info {
+    width: 185.92px;
+    box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
+    border-radius: 13.9792px;
+    margin-bottom: 24.16px;
+
+
+}
+
+.main-content-about-course-info h3 {
+
+    padding-left: 9.32px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.main-content-about-course-info p {
+    padding-left: 8.85px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+
+
+
+
+
+.main-content-feedback-block {
+    display: flex;
+    flex-direction: column;
+    margin-left: 36px;
+    background: #EFEFEF;
+    width: 376px;
+}
+
+
+
+
+.main-content-feedback-block h2 {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    width: 257px;
+    margin-left: 36px;
+
+}
+
+
+.main-content-feedback-block-text {
+    margin-left: 35px;
+    margin-right: 32px;
+    margin-bottom:11px;
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 18px;
+    background: #FFFFFF;
+    box-shadow: 0.465972px 0.465972px 9.31944px rgba(0, 0, 0, 0.25);
+    border-radius: 13.9792px;
+}
+
+
+.main-content-feedback-block-text p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+}
+
+
+.main-content-feedback-block-image {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-content-feedback-block-image .user {
+
+    width: 80px;
+}
