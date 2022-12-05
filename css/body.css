@@ -256,9 +256,8 @@ h1 {
 .main-content-feedback-block {
     display: flex;
     flex-direction: column;
-    margin-left: 36px;
     background: #EFEFEF;
-    width: 376px;
+    width: 389px;
 }
 
 
@@ -278,13 +277,13 @@ h1 {
 .main-content-feedback-block-text {
     margin-left: 35px;
     margin-right: 32px;
-    margin-bottom:11px;
+    margin-bottom: 11px;
     padding-left: 21px;
     padding-right: 21px;
     padding-top: 18px;
     background: #FFFFFF;
     box-shadow: 0.465972px 0.465972px 9.31944px rgba(0, 0, 0, 0.25);
-    border-radius: 13.9792px;
+    border-radius: 14px;
 }
 
 
@@ -293,15 +292,39 @@ h1 {
     font-style: normal;
     font-weight: 400;
     font-size: 10px;
+    width: 266px;
+
 }
 
 
-.main-content-feedback-block-image {
+.main-content-feedback-user-block {
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+
 }
 
-.main-content-feedback-block-image .user {
 
+
+
+.main-content-feedback-user h3 {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    margin-left: 14px;
+    margin-bottom: 15px;
+}
+
+
+.main-content-feedback-user-block .user {
     width: 80px;
+    height: 84px;
+}
+
+
+.main-content-feedback-user .logo {
+    
+    margin-left: 14px;
+    margin-bottom: 25px;
 }
