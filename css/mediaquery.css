@@ -1,0 +1,248 @@
+/*992px до 1279px; */
+
+@media screen and (min-width:992px) {
+    .main-content-text {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 72px;
+    }
+
+
+    .main-content-title {
+        margin-left: 70px;
+        margin-bottom: 0;
+    }
+
+    .main-content-title h1 {
+
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+
+        height: 216.61px;
+        margin-left: 40px;
+
+    }
+
+
+
+    .main-content-sideimage .aboutusimage {
+        width: 182px;
+        height: 182px;
+        margin-left: 70px;
+        margin-bottom: 0;
+    }
+
+
+    .main-content-info {
+        display: flex;
+        flex-direction: row;
+        width: 1280px;
+        align-items: center;
+    }
+
+    .main-content-info-title {
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+    }
+
+
+    .main-content-image {
+        width: 134.37px;
+        height: 117.57px;
+        margin-left: 100px;
+    }
+
+
+    .info-lessons {
+
+        margin-left: 76px;
+    }
+
+
+    .info-lessons h3 {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+    }
+
+    .info-lessons p {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        width: 108px;
+    }
+
+
+
+    .main-content-info-title {
+        margin-left: 71px;
+    }
+
+    .main-content-descriptions {
+
+        display: flex;
+        flex-direction: row;
+        margin-left: 71px;
+        margin-bottom: 52px;
+
+
+    }
+
+
+    .main-content-description h3 {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+
+    }
+
+    .main-content-description p {
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+
+
+    }
+
+    .main-content-description1 h3 {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+
+    }
+
+    .main-content-description1 p {
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+
+
+    }
+
+    .main-content-description2 h3 {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        margin-top: 12px;
+
+    }
+
+    .main-content-description2 p {
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+
+
+    }
+
+    .main-content-description1 {
+        margin-left: 46px;
+    }
+
+    .main-content-description2 {
+        margin-left: 51px;
+        height: 22.59px;
+    }
+
+
+
+
+    .main-content-info-about h2 {
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        margin-left: 71px;
+    }
+
+    .main-content-info-list {
+        width: 383.41px;
+        height: 216.61px;
+    }
+
+    .main-content-info-list ul {
+        margin-left: 71px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+
+    .main-content-about-course {
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        margin-left: 65px;
+    }
+
+    .main-content-about-course-info-blocks {
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 49px;
+        margin-right: 49px;
+        margin-top: 55px;
+        width: 834px;
+
+
+
+    }
+
+
+    .main-content-about-course-info {
+        margin: 12px;
+
+    }
+
+    .main-content-feedback-block {
+        width: 834px;
+        margin-left: 56px;
+        margin-top: 52px;
+    }
+
+    .main-content-feedback-block-text {
+
+        width: 458.12px;
+
+
+    }
+
+    .main-content-feedback-block-text  p{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+    }
+
+    
+
+}
+
+
+
+
+@media screen and (max-width:991px) {
+
+    .main-content-image {
+        display: none;
+    }
+}
