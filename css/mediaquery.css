@@ -1,6 +1,8 @@
 /*992px до 1279px; */
 
-@media screen and (min-width:992px) {
+@media screen and (min-width:992px) and (max-width:1279px) {
+
+   
     .main-content-text {
         display: flex;
         flex-direction: row;
@@ -236,7 +238,6 @@
     
 
 }
-
 
 
 
