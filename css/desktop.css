@@ -4,11 +4,6 @@
 
 
 
-    * {
-
-        margin-left: 0px;
-    }
-
 
 
 
@@ -322,6 +317,7 @@
 
         width: 100%;
         margin-top: 121px;
+        height: 780px;
     }
 
 
@@ -377,4 +373,283 @@
         height: 31px;
         margin-left: 30px;
     }
+
+
+
+
+
+
+
+
+    .pre-footer-block {
+
+        background: #9DC9C8;
+        height: 780px;
+
+
+    }
+
+
+    .green-block {
+        margin-bottom: 2px;
+    }
+
+    .block-title {
+        margin-bottom: 10px;
+    }
+
+    .block-title h1 {
+
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 55px;
+        width: 908px;
+        margin-left: 122px;
+        margin-bottom: 40px;
+        margin-top: 0px;
+        padding-top: 179px;
+
+    }
+
+    .cost-text1 {
+        margin-bottom: 10px;
+    }
+
+    .cost-text {
+        margin-left: 122px;
+    }
+
+    .cost-text p {
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 80px;
+        width: 481px;
+        margin-top: 0;
+    }
+
+    .cost-text1 span {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        width: 170px;
+        margin-left: 121px;
+    }
+
+
+    .costs {
+        margin-bottom: 100px;
+    }
+
+    .text1 span {
+
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        width: 294px;
+        height: 32px;
+    }
+
+    .text2 span {
+
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        width: 322px;
+        height: 32px;
+    }
+
+
+
+    .text1,
+    .text2 p {
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        width: 294px;
+
+    }
+
+
+    .text1 p {
+
+        margin-top: 15px;
+    }
+
+    .text2 p {
+        margin-top: 15px;
+    }
+
+    .text1 {
+        margin-left: 122px;
+    }
+
+    .text2 {
+
+        margin-left: 150px;
+    }
+
+
+    .two-text-blocks {
+
+        display: flex;
+        flex-direction: row;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .footer-1 {
+        
+       
+        width: 100%;
+        height: 390px;
+        
+
+
+    }
+
+    .left-logo-block {
+        display: flex;
+        background-color: #000000;
+        width: 1422px;
+    }
+
+    .icon-style {
+        width: 115px;
+        height: 68px;
+        margin-top: 50px;
+        margin-left: 122px;
+        padding: 0;
+
+    }
+
+
+    .footer-icons-left {
+       margin-left: 122px;
+    }
+
+    div.menu {
+        color: rgb(255, 255, 255);
+      
+        margin-top: 146px;
+        padding: 0;
+
+    }
+
+    .footer-icons-right {
+        /* display: flex; */
+        
+        color: white;
+        margin-top: 45px;
+        margin-right: 60px;
+
+
+    }
+
+    .icon-style-phone {
+        
+        
+        
+        
+        /* justify-content: flex-end;
+        align-items: flex-end; */
+    }
+
+    .icon-style-mail {
+       
+        background: #000000;
+        
+       
+       margin-right: 120px;
+
+    }
+
+    .icon-phone-white {
+        
+        margin-top: 36px;
+        margin-right: 316px;
+        width: 99%;
+       
+
+    }
+
+    .icon-mail-white {
+        margin-top: 36px;
+        margin-right: 316px;
+        width: 99%;
+        
+        
+
+
+    }
+
+
+    .icon-phone-white img {
+        width: 27px;
+        
+    }
+    .icon-phone-white .icon-style-phone {
+
+    }
+
+
+    .icon-phone-white p {
+
+        margin-left: 39px;
+        margin-top: -26px;
+    }
+
+    .icon-mail-white p {
+
+        margin-left: 39px;
+        margin-top: -26px;
+    }
+
+    a {
+        color: rgb(255, 255, 255);
+    }
+
+
+
+
+
 }
