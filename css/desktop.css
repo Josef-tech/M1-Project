@@ -4,6 +4,140 @@
 
 
 
+    .header {
+
+        width: ;
+    }
+
+
+
+    .nav-title img {
+        width: 112px;
+        margin-top: 21px;
+    }
+
+    .nav-menu {
+
+        margin-right: -34px;
+
+    }
+
+    .nav-menu li {
+
+        display: inline;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        width: 130px;
+        padding-right: 30px;
+
+
+    }
+
+
+
+
+    .nav-menu ul {
+        list-style-type: none;
+        margin-top: 100px;
+        margin-right: 100px;
+        display: block;
+        margin-left: -38px;
+
+    }
+
+    .nav-message h1 {
+
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 80px;
+        width: 628px;
+        margin-right: 113px;
+    }
+
+
+    .nav-text p {
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        width: 414px;
+        margin-bottom: 112px;
+        margin-top: -30px;
+    }
+
+    .quote-block {
+
+
+        width: 483.63px;
+        margin-left: 409px;
+        margin-top: 67px;
+        background: #1E4681;
+        border-radius: 5px;
+        margin-bottom: 180px;
+
+    }
+
+    .quote-block p {
+
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        color: white;
+        padding-top: 17px;
+
+        padding-left: 40px;
+        padding-right: 27px;
+    }
+
+    .quote-block .author {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        color: #FFFFFF;
+        padding-left: 264px;
+        padding-bottom: 20px;
+    }
+
+    .sideimage-block {
+
+        margin-top: 200px;
+    }
+
+
+    .sideimage-block img {}
+
+    .header-blocks {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -31,7 +165,7 @@
 
     }
 
-    .main-content-title h1 {
+    .main-content-title h2 {
 
         font-family: 'Roboto Slab';
         font-style: normal;
