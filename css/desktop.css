@@ -13,6 +13,7 @@
 
     .nav-title img {
         width: 112px;
+        height: 66px;
         margin-top: 21px;
     }
 
@@ -79,6 +80,7 @@
         border-radius: 5px;
         margin-bottom: 180px;
 
+
     }
 
     .quote-block p {
@@ -88,8 +90,7 @@
         font-weight: 400;
         font-size: 25px;
         color: white;
-        padding-top: 17px;
-
+        width: 430.59px;
         padding-left: 40px;
         padding-right: 27px;
     }
@@ -100,8 +101,9 @@
         font-weight: 400;
         font-size: 20px;
         color: #FFFFFF;
-        padding-left: 264px;
-        padding-bottom: 20px;
+        padding-left: 150px;
+
+
     }
 
     .sideimage-block {
@@ -109,8 +111,16 @@
         margin-top: 200px;
     }
 
+    .sideimage-block img {
+        width: 304px;
+        height: 356px;
+    }
 
-    .sideimage-block img {}
+    .sideimage-block .ellipse {
+
+        margin-right: 70px;
+        margin-bottom: 10px
+    }
 
     .header-blocks {
         display: flex;
@@ -214,6 +224,12 @@
         margin-left: 121px;
     }
 
+
+    .content-info-lessons {
+
+        display: flex;
+
+    }
 
     .info-lessons {
 
@@ -698,7 +714,7 @@
 
 
     .footer-icons-left {
-        margin-left: 122px;
+        margin-left: 94px;
     }
 
     div.menu {
@@ -717,6 +733,10 @@
         margin-right: 60px;
 
 
+    }
+
+    .sync {
+        display: none;
     }
 
     .icon-style-phone {
@@ -740,43 +760,53 @@
     .icon-phone-white {
 
         margin-top: 36px;
-        margin-right: 316px;
-        width: 99%;
+        margin-left: 250px;
+
 
 
     }
 
     .icon-mail-white {
         margin-top: 36px;
-        margin-right: 316px;
-        width: 99%;
-
-
-
+        margin-left: 250px;
 
     }
 
 
     .icon-phone-white img {
         width: 27px;
+        height: 27px;
 
     }
 
-    .icon-phone-white .icon-style-phone {}
+    .icon-mail-white img {
+        width: 27px;
+        height: 18px;
+    }
 
 
     .icon-phone-white p {
 
-        margin-left: 39px;
-        margin-top: -26px;
+        margin-left: 73px;
+        margin-top: -33px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        width: 230px;
     }
+
 
     .icon-mail-white p {
-
-        margin-left: 39px;
+        width: 269px;
+       
         margin-top: -26px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
     }
-
+    
     a {
         color: rgb(255, 255, 255);
     }

@@ -1,3 +1,138 @@
+.header-blocks {
+    margin-left: 50px;
+}
+
+
+.nav-title img {
+    width: 52.19px;
+    height: 30.75px;
+    margin-top: 36px;
+}
+
+.nav-message h1 {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 37px;
+    width: 292.63px;
+}
+
+.nav-text p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    width: 212.4px;
+}
+
+
+.sideimage-block img {
+    width: 141.66px;
+    height: 165.89px;
+    margin-left: 150px;
+}
+
+
+.quote-block {
+    border: 1px solid black;
+    width: 225.36px;
+    margin-left: 50px;
+    background: #1E4681;
+    border-radius: 2.32986px;
+    margin-top: 40px;
+}
+
+.quote-block p {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    width: 200.64px;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+.quote-block .author {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    color: #FFFFFF;
+    margin-left: 120px;
+    padding: 5px;
+}
+
+
+.nav-menu {}
+
+.nav-menu__list {}
+
+.nav-menu li {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    display: inline;
+    padding: 8px;
+
+}
+
+
+.nav-menu ul {
+
+    list-style-type: none;
+    margin-top: 30px;
+    display: block;
+    margin-left: -41px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 body {
     box-sizing: border-box;
     margin: 0;
@@ -321,7 +456,218 @@ h2 {
 
 
 .main-content-feedback-user .logo {
-    
+
     margin-left: 14px;
     margin-bottom: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.block-title h1 {
+
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    width: 224px;
+    height: 63px;
+    margin-left: 40px;
+    margin-top: 0;
+    padding-top: 62px;
+
+
+}
+
+
+.cost-text1 span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 40px;
+    display: inline-block;
+}
+
+.cost-text p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 37px;
+    margin-left: 40px;
+    margin-top: 0;
+}
+
+.text1 span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+
+}
+
+.text2 span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 40px;
+}
+
+.text1,
+.text2 p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    width: 138px;
+    margin-left: 40px;
+}
+
+.text1 p {
+
+    margin-top: 15px;
+}
+
+.text2 p {
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+.two-text-blocks {
+
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 63px;
+
+}
+
+
+.pre-footer-block {
+
+    background: #9DC9C8;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: black;
+}
+
+
+.icon-style {
+    width: 53.59px;
+    height: 31.69px;
+    padding-top: 25px;
+    margin-left: 28px;
+}
+
+.icon-style-instagram {
+    width: 15.38px;
+    margin-left: 28px;
+}
+
+.icon-style-facebook {
+    width: 14.91px;
+    margin-left: 10px;
+}
+
+.icon-style-v {
+    width: 16.31px;
+    margin-left: 10px;
+}
+
+.icon-style-whatsapp {
+    width: 15.84px;
+    margin-left: 10px;
+}
+
+.icon-phone-white img {
+    width: 12.58px;
+    margin-left: 28px;
+}
+
+.icon-mail-white img{
+    width: 12.58px;
+    margin-left: 28px;
+}
+
+
+.icon-phone-white p {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    width: 107.17px;
+    color: #FFFFFF;
+    margin-left: 60px;
+    margin-top: -17px;
+}
+
+.icon-mail-white p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    width: 125px;
+    color: #FFFFFF;
+    margin-left: 60px;
+    margin-top: -17px;
+}
+
+.sync {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    color: #FFFFFF;
+    margin-left: 28px;
+    margin-top: 48px;
+}
+
+.left-logo-block {
+    margin-top:-16px;
 }
