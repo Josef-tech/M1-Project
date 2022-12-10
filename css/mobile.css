@@ -63,9 +63,7 @@
 }
 
 
-.nav-menu {}
 
-.nav-menu__list {}
 
 .nav-menu li {
 
@@ -389,7 +387,6 @@ h2 {
     display: flex;
     flex-direction: column;
     background: #EFEFEF;
-    width: 389px;
 }
 
 

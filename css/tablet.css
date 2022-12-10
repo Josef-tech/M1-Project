@@ -1,7 +1,7 @@
 /*992px до 1279px; */
 
 @media screen and (min-width:992px) and (max-width:1279px) {
-    
+
 
     .header-blocks {
         display: flex;
@@ -10,7 +10,7 @@
         width: 834px;
         margin-left: 45px;
     }
-    
+
 
 
     .nav-title img {
@@ -99,8 +99,10 @@
         font-weight: 400;
         font-size: 12px;
         color: black;
-        padding-left: 157px;
+        text-align: right;
         padding-bottom: 20px;
+        margin-left: 0;
+        margin-right: 10px;
         color: #FFFFFF;
     }
 
@@ -253,7 +255,7 @@
     }
 
     .main-content-description1 p {
-
+        
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
@@ -344,8 +346,6 @@
     }
 
     .main-content-feedback-block {
-        width: 834px;
-
         margin-top: 52px;
     }
 
@@ -379,11 +379,7 @@
 
 
     .pre-footer-block {
-
         background: #9DC9C8;
-        width: 834px;
-
-
     }
 
 
@@ -401,10 +397,12 @@
         font-weight: 700;
         font-size: 32px;
         margin-left: 122px;
-        margin-bottom: 40px;
+        margin-bottom: 32px;
         margin-top: 0px;
-        padding-top: 179px;
+        padding-top: 104px;
 
+        width: unset;
+        height: unset;
     }
 
     .cost-text1 {
@@ -423,6 +421,7 @@
         font-size: 46px;
         width: 279px;
         margin-top: 0;
+        margin-left: 0;
     }
 
     .cost-text1 span {
@@ -437,7 +436,7 @@
 
 
     .costs {
-        margin-bottom: 100px;
+        margin-bottom: 40px;
     }
 
     .text1 span {
@@ -469,8 +468,7 @@
         font-weight: 400;
         font-size: 10px;
         width: 178px;
-        padding-bottom: 100px;
-
+        padding-bottom: 70px;
     }
 
 
@@ -488,7 +486,6 @@
     }
 
     .text2 {
-
         margin-left: 150px;
     }
 
@@ -507,25 +504,16 @@
 
 
 
-    .footer-1 {
-
-
-        width: 834px;
-        height: 390px;
-
-
-
-    }
+    
 
     .left-logo-block {
         display: flex;
         background-color: #000000;
-        width: 834px;
     }
 
     .icon-style {
-        width: 66.6px;
-        margin-top: 50px;
+        width: 66.6 px;
+        margin-top: 12px;
         margin-left: 122px;
         padding: 0;
 
@@ -542,7 +530,7 @@
 
     div.menu {
         color: rgb(255, 255, 255);
-        margin-top: 146px;
+        margin-top: 85px;
         padding: 0;
         font-family: 'Roboto';
         font-style: normal;
@@ -556,20 +544,11 @@
 
         color: white;
         margin-top: 45px;
-        margin-right: -200px;
 
-
+        margin-left: auto;
     }
 
-    .icon-style-phone {
-
-
-
-
-        /* justify-content: flex-end;
-        align-items: flex-end; */
-    }
-
+   
     .icon-style-mail {
 
         background: #000000;
@@ -580,47 +559,52 @@
     }
 
     .icon-phone-white {
+        margin-top: 0;
+        margin-right: 107px;
 
-        margin-top: 36px;
-        margin-right: 316px;
-        width: 99%;
-
+        display: flex;
+        align-items: center;
 
     }
 
     .icon-mail-white {
-        margin-top: 36px;
-        margin-right: 316px;
-        width: 99%;
+        margin-top: 12px;
+        margin-right: 107px;
 
 
-
-
+        display: flex;
+        align-items: center;
     }
 
 
     .icon-phone-white img {
-        width: 27px;
+        width: 15px;
 
     }
-
-    .icon-phone-white .icon-style-phone {}
 
 
     .icon-phone-white p {
 
-        margin-left: 39px;
-        margin-top: -26px;
+        margin: 0;
+        margin-left: 13px;
     }
 
     .icon-mail-white p {
 
-        margin-left: 39px;
-        margin-top: -26px;
+        margin: 0;
+        margin-left: 13px;
     }
 
     a {
         color: rgb(255, 255, 255);
+    }
+
+    .icon-style-instagram {
+        margin-left: 0;
+    }
+
+    .sync {
+        display: none;
     }
 
 
