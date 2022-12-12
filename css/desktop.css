@@ -2,20 +2,18 @@
 
 @media screen and (min-width:1280px) {
 
+    * {
+        font-family: 'Roboto', 'Roboto slab', sans-serif;
+    }
+
 
 
 
 
     .nav-title img {
+        padding-left: 96px;
         width: 112px;
         height: 66px;
-        margin-top: 21px;
-    }
-
-    .nav-menu {
-
-        margin-right: -34px;
-
     }
 
     .nav-menu li {
@@ -31,15 +29,16 @@
 
     }
 
-
+    .nav-menu__list img {
+        width: 22px;
+    }
 
 
     .nav-menu ul {
         list-style-type: none;
-        margin-top: 100px;
-        margin-right: 100px;
+        padding-top: 100px;
         display: block;
-        margin-left: -38px;
+        padding-left: 135px;
 
     }
 
@@ -50,26 +49,40 @@
         font-weight: 700;
         font-size: 80px;
         width: 628px;
-        margin-right: 126px;
+
     }
 
 
-    .nav-text p {
+    .nav-message p {
 
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
         font-size: 20px;
         width: 414px;
-        margin-bottom: 112px;
-        margin-top: -30px;
+
+        margin-top: -36px;
+    }
+
+
+    .header-text {
+        display: flex;
+        justify-content: space-evenly;
+        padding-left: 45px;
+
+    }
+
+
+    .quote-block-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .quote-block {
 
 
         width: 483.63px;
-        margin-left: 409px;
         margin-top: 67px;
         background: #1E4681;
         border-radius: 5px;
@@ -101,25 +114,19 @@
 
     }
 
-    .sideimage-block {
 
-        margin-top: 200px;
-    }
 
     .sideimage-block img {
         width: 304px;
         height: 356px;
     }
 
-    .sideimage-block .ellipse {
 
-        margin-right: 70px;
-        margin-bottom: 10px
-    }
+
 
     .header-blocks {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: start;
     }
 
 
@@ -154,6 +161,21 @@
         margin-top: 18px;
     }
 
+    .main-context-text1 {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .main-content-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-left: 70px;
+
+    }
+
     .main-context-text1 p {
         font-family: 'Roboto';
         font-style: normal;
@@ -166,7 +188,7 @@
     .main-content-title {
 
         margin-bottom: 0;
-        width: 365px;
+        width: unset;
 
     }
 
@@ -181,16 +203,22 @@
     }
 
     .main-content-image img {
-
         width: 232px;
         height: 203px;
     }
 
     .main-content-sideimage .aboutusimage {
-        width: 314px;
-        height: 315px;
+
         margin-right: 190px;
         margin-bottom: 0;
+        width: 314px;
+        height: 315px;
+    }
+
+
+    .main-content-sideimage .ellipse2 {
+        width: 366px;
+        height: 59px;
     }
 
 
@@ -216,7 +244,14 @@
 
         width: 232px;
         height: 203px;
-        margin-left: 121px;
+        padding-left: 51px;
+
+    }
+
+    .main-content-image .ellipse3 {
+
+        width: 189px;
+        height: 32px;
     }
 
 
@@ -226,9 +261,15 @@
 
     }
 
+    .info-lessons-container {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
     .info-lessons {
 
-        margin-left: 92px;
+        padding-left: 70px;
     }
 
 
@@ -563,7 +604,7 @@
         margin-left: 122px;
     }
 
-    .cost-text p {
+    .cost-text span {
 
         font-family: 'Roboto';
         font-style: normal;
@@ -571,6 +612,7 @@
         font-size: 80px;
         width: 481px;
         margin-top: 0;
+        margin-left: 0;
     }
 
     .cost-text1 span {
@@ -579,7 +621,7 @@
         font-weight: 400;
         font-size: 25px;
         width: 170px;
-        margin-left: 121px;
+        padding-left: 83px;
     }
 
 
@@ -657,143 +699,112 @@
 
 
 
+    /*footer*/
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    .footer-1 {
-
-
-        width: 100%;
-        height: 390px;
-
-
-
+    .footer-container {
+        padding-left: 130px;
+        padding-right: 185px;
     }
 
-    .left-logo-block {
+    .top-side {
         display: flex;
-        background-color: #000000;
-        width: 100%;
+        justify-content: space-between;
+        align-items: flex-start;
     }
 
-    .icon-style {
+    .footer-logo-block {
+        padding-left: 0;
+    }
+
+    .footer-title {
+        padding-left: 0;
+    }
+
+    .footer-logo {
+        padding-top: 30px;
+    }
+
+    .footer-logo img {
         width: 115px;
         height: 68px;
-        margin-top: 50px;
-        margin-left: 122px;
-        padding: 0;
 
+        padding-left: 0;
+    }
+
+    .footer-soc {
+        padding-left: 0;
     }
 
 
-    .footer-icons-left {
-        margin-left: 94px;
-    }
-
-    div.menu {
-        color: rgb(255, 255, 255);
-
-        margin-top: 146px;
-        padding: 0;
-
-    }
-
-    .footer-icons-right {
-        /* display: flex; */
-
-        color: white;
-        margin-top: 45px;
-        margin-right: 60px;
-
-
-    }
-
-    .sync {
-        display: none;
-    }
-
-    .icon-style-mail {
-
-        background: #000000;
-
-
-        margin-right: 120px;
-
-    }
-
-    .icon-phone-white {
-
-        margin-top: 36px;
-        margin-left: 250px;
-
-
-
-    }
-
-    .icon-mail-white {
-        margin-top: 36px;
-        margin-left: 250px;
-
+    .footer-soc img {
+        width: 33px;
     }
 
 
-    .icon-phone-white img {
-        width: 27px;
-        height: 27px;
-
+    .footer-contact-title {
+        padding-right: 0;
     }
 
-    .icon-mail-white img {
-        width: 27px;
-        height: 18px;
-    }
-
-
-    .icon-phone-white p {
-
-        margin-left: 73px;
-        margin-top: -33px;
+    .contact p {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
         font-size: 25px;
-        width: 230px;
+
+    }
+
+    .phone {
+        padding-top: 26px;
+    }
+
+    .mail {
+        padding-top: 29px;
+    }
+
+    .phone img {
+        width: 27px;
+
+    }
+
+    .mail img {
+        width: 27px;
+
     }
 
 
-    .icon-mail-white p {
-        width: 269px;
-       
-        margin-top: -26px;
+    .footer-title p {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
-        font-size: 25px;
+        font-size: 18px;
     }
-    
-    a {
-        color: rgb(255, 255, 255);
+
+    @media screen and (max-width:991px) {
+
+        .main-content-image {
+            display: none;
+        }
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
