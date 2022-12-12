@@ -590,25 +590,39 @@
     /*footer */
 
 
+
     .footer-container {
+        padding-left: 130px;
+        padding-right: 85px;
+    }
+
+    .top-side {
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
     }
 
     .footer-logo-block {
-        padding-left: 70px;
+        padding-left: 0;
     }
 
     .footer-title {
-        padding-left: 108px;
+        padding-left: 0;
     }
+
     .footer-logo {
         padding-top: 30px;
     }
+
     .footer-logo img {
         width: 66.6px;
         height: 39.38px;
+
+        padding-left: 0;
+    }
+
+    .footer-soc {
+        padding-left: 0;
     }
 
 
@@ -618,8 +632,7 @@
 
 
     .footer-contact-title {
-        padding-right: 115px;
-       
+        padding-right: 0;
     }
 
     .contact p {
@@ -627,16 +640,17 @@
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
-        width: 155.8px;
+
     }
 
     .phone {
-        padding-top:16px;
+        padding-top: 16px;
     }
 
     .mail {
         padding-top: 9px;
     }
+
     .phone img {
         width: 15.64px;
     }
@@ -645,25 +659,12 @@
         width: 15.64px;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .footer-title p {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+    }
 
     @media screen and (max-width:991px) {
 
@@ -671,3 +672,22 @@
             display: none;
         }
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
