@@ -1,3 +1,9 @@
+* {
+    font-family: 'Roboto','Roboto slab', sans-serif;
+}
+
+
+
 .header-blocks {
     margin-left: 50px;
 }
@@ -505,7 +511,7 @@ h2 {
     display: inline-block;
 }
 
-.cost-text p {
+.cost-text span {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -665,6 +671,6 @@ footer {
     margin-top: 48px;
 }
 
-.left-logo-block {
+.footer-container__block {
     margin-top:-16px;
 }
