@@ -42,6 +42,17 @@
 
     }
 
+    .nav-menu li {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+    }
+
+    .nav-menu__list img {
+        width: 12.74px;
+    }
+
     .nav-message h1 {
 
         font-family: 'Roboto Slab';
@@ -255,6 +266,7 @@
         justify-content: space-evenly;
         flex-direction: row;
         align-items: center;
+        flex-wrap: nowrap;
     }
 
     .info-lessons {
@@ -290,7 +302,6 @@
         flex-direction: row;
         justify-content: space-evenly;
         align-items: center;
-        padding-right: 78px;
         margin-bottom: 52px;
         margin-top: 51px;
 
@@ -356,7 +367,7 @@
     }
 
 
-   
+
 
 
 
@@ -579,123 +590,59 @@
     /*footer */
 
 
-
-
-
-    .footer-container__block {
+    .footer-container {
         display: flex;
-        background-color: #000000;
+        justify-content: space-between;
+        align-items: flex-start;
     }
 
-    .icon-style {
-        width: 66.6 px;
-        margin-top: 12px;
-        margin-left: 122px;
-        padding: 0;
+    .footer-logo-block {
+        padding-left: 70px;
+    }
 
+    .footer-title {
+        padding-left: 108px;
+    }
+    .footer-logo {
+        padding-top: 30px;
+    }
+    .footer-logo img {
+        width: 66.6px;
+        height: 39.38px;
     }
 
 
-    .footer-icons-left {
-        margin-left: 122px;
-    }
-
-    .footer-icons-left img {
+    .footer-soc img {
         width: 19.11px;
     }
 
-    div.menu {
-        color: rgb(255, 255, 255);
-        margin-top: 85px;
-        padding: 0;
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 10px;
 
+    .footer-contact-title {
+        padding-right: 115px;
+       
     }
 
-    .footer-icons-right {
-        /* display: flex; */
-
-        color: white;
-        margin-top: 45px;
-
-        margin-left: auto;
-    }
-
-
-    .icon-style-mail {
-
-        background: #000000;
-
-
-        margin-right: 120px;
-
-    }
-
-    .icon-phone-white {
-        margin-top: 0;
-        margin-right: 107px;
-
-        display: flex;
-        align-items: center;
-
-    }
-
-    .icon-mail-white {
-        margin-top: 12px;
-        margin-right: 107px;
-
-
-        display: flex;
-        align-items: center;
-    }
-
-
-    .icon-phone-white img {
-        width: 15.64px;
-        height: 15.64px;
-
-    }
-
-    .icon-mail-white img {
-        width: 15.64px;
-        height: 10.43px;
-    }
-
-
-    .icon-phone-white p {
-
-        margin: 0;
-        margin-left: 13px;
+    .contact p {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
+        width: 155.8px;
     }
 
-
-    .icon-mail-white p {
-
-        margin: 0;
-        margin-left: 13px;
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
+    .phone {
+        padding-top:16px;
     }
 
-    a {
-        color: rgb(255, 255, 255);
+    .mail {
+        padding-top: 9px;
+    }
+    .phone img {
+        width: 15.64px;
     }
 
-    .icon-style-instagram {
-        margin-left: 0;
-    }
-
-    .sync {
-        display: none;
+    .mail img {
+        width: 15.64px;
     }
 
 
@@ -713,13 +660,14 @@
 
 
 
-}
 
 
 
-@media screen and (max-width:991px) {
 
-    .main-content-image {
-        display: none;
+
+    @media screen and (max-width:991px) {
+
+        .main-content-image {
+            display: none;
+        }
     }
-}
